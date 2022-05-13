@@ -1,0 +1,16 @@
+body{
+    overflow-x: hidden;
+}
+[class *="container"] img {
+    width: 10em;
+    height: 9em;
+}
+
+/* media query */
+@media (max-width: 900px){
+    .flex-sm-column {
+        flex-direction: row!important;
+        flex-wrap: wrap;
+    }
+}
+
